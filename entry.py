@@ -34,3 +34,4 @@ unc = 0
 # rows = get_table_row(table_name, 5)
 #
 # print(rows)
+# help()
