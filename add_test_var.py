@@ -1,8 +1,6 @@
 from crud import *
 
-quanttity_records = 10
-
-def add_test_var():
+def add_test_var(quanttity_records):
     total_delete_table_records(1)
     for i in range(quanttity_records):
         add_user(f_name=f"First Name {i}", l_name=f"Last Name {i}", nickname=f"Nickname {i}",
