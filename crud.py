@@ -55,7 +55,7 @@ def add_organizer(name, description):
     session.commit()
 
 
-def add_place(name, description, country, city, district, street, num_building, liter_building, level):
+def add_place(name, description, country, city, district, street, num_building, liter_building, level, mono_address):
     place = Place(name=name,
                   description=description,
                   country=country,
@@ -64,7 +64,8 @@ def add_place(name, description, country, city, district, street, num_building, 
                   street=street,
                   num_building=num_building,
                   liter_building=liter_building,
-                  level=level)
+                  level=level,
+                  mono_address=mono_address)
     session.add(place)
     session.commit()
 

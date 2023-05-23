@@ -18,7 +18,7 @@ unc = 0
 #      )
 
 
-# add_test_var()
+add_test_var(5)
 
 # full_delete_table_records(table)
 

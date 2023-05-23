@@ -64,6 +64,7 @@ class Place(db.Model):
     num_building = Column(Integer)
     liter_building = Column(String(5))
     level = Column(Integer)
+    mono_address = Column(String(200))
 
 
 class Genre(db.Model):
